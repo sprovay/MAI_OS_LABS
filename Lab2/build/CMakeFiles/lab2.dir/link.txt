@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/lab2.dir/src/convolution.c.o CMakeFiles/lab2.dir/src/main.c.o CMakeFiles/lab2.dir/src/parallel.c.o CMakeFiles/lab2.dir/src/sequential.c.o CMakeFiles/lab2.dir/src/utils.c.o -o lab2  -lm -lpthread 
