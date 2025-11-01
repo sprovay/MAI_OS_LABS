@@ -7,7 +7,6 @@
 #include <sys/mman.h>
 #include <semaphore.h>
 #include <stdint.h>
-#include <errno.h>
 
 #define MAX_LENGTH 512
 #define NUM_PROCESSES 2
