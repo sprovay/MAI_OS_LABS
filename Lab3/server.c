@@ -93,7 +93,7 @@ int main() {
 
         shm_data[i] = mmap(NULL, SHM_SIZE, PROT_READ | PROT_WRITE, MAP_SHARED, shm_fds[i], 0);
         if (shm_data[i] == MAP_FAILED) {
-            perror("error: failed to map shared memory\n");
+            perror("error: failed to map SHM\n");
             close(shm_fds[i]);
             shm_unlink(shm_names[i]);
             for (int j = 0; j < i; j++) {
